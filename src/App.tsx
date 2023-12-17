@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import './App.css';
-import Cell from "./Components/Cell/Cell"
+import Grid from './Components/Grid/Grid';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Cell />
+        <Grid />
       </header>
     </div>
   );
